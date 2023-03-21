@@ -3104,6 +3104,7 @@ add_library(grpc++
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/secure_auth_context.cc
@@ -3184,6 +3185,7 @@ foreach(_hdr
   include/grpc++/completion_queue.h
   include/grpc++/create_channel.h
   include/grpc++/create_channel_posix.h
+  include/grpc++/notifier.h
   include/grpc++/ext/health_check_service_server_builder_option.h
   include/grpc++/generic/async_generic_service.h
   include/grpc++/generic/generic_stub.h
@@ -3262,6 +3264,7 @@ foreach(_hdr
   include/grpcpp/create_channel.h
   include/grpcpp/create_channel_binder.h
   include/grpcpp/create_channel_posix.h
+  include/grpcpp/notifier.h
   include/grpcpp/ext/call_metric_recorder.h
   include/grpcpp/ext/health_check_service_server_builder_option.h
   include/grpcpp/generic/async_generic_service.h
@@ -3772,6 +3775,7 @@ add_library(grpc++_unsecure
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
   src/cpp/common/insecure_create_auth_context.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc
@@ -3843,6 +3847,7 @@ foreach(_hdr
   include/grpc++/completion_queue.h
   include/grpc++/create_channel.h
   include/grpc++/create_channel_posix.h
+  include/grpc++/notifier.h
   include/grpc++/ext/health_check_service_server_builder_option.h
   include/grpc++/generic/async_generic_service.h
   include/grpc++/generic/generic_stub.h
@@ -3920,6 +3925,7 @@ foreach(_hdr
   include/grpcpp/completion_queue.h
   include/grpcpp/create_channel.h
   include/grpcpp/create_channel_posix.h
+  include/grpcpp/notifier.h
   include/grpcpp/ext/call_metric_recorder.h
   include/grpcpp/ext/health_check_service_server_builder_option.h
   include/grpcpp/generic/async_generic_service.h
@@ -8203,6 +8209,7 @@ add_executable(binder_transport_test
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc
@@ -10049,6 +10056,7 @@ add_executable(endpoint_binder_pool_test
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc
@@ -10474,6 +10482,7 @@ add_executable(fake_binder_test
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc
@@ -17549,6 +17558,7 @@ add_executable(transport_stream_receiver_test
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc
@@ -17933,6 +17943,7 @@ add_executable(wire_reader_test
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc
@@ -18026,6 +18037,7 @@ add_executable(wire_writer_test
   src/cpp/common/channel_filter.cc
   src/cpp/common/completion_queue_cc.cc
   src/cpp/common/core_codegen.cc
+  src/cpp/common/notifier.cc
   src/cpp/common/resource_quota_cc.cc
   src/cpp/common/rpc_method.cc
   src/cpp/common/validate_service_config.cc

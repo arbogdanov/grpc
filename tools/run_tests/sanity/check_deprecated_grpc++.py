@@ -22,7 +22,7 @@ os.chdir(os.path.join(os.path.dirname(sys.argv[0]), '../../..'))
 expected_files = [
     "include/grpc++/create_channel_posix.h", "include/grpc++/server_builder.h",
     "include/grpc++/resource_quota.h", "include/grpc++/create_channel.h",
-    "include/grpc++/alarm.h", "include/grpc++/server.h",
+    "include/grpc++/alarm.h", "include/grpc++/notifier.h", "include/grpc++/server.h",
     "include/grpc++/server_context.h", "include/grpc++/client_context.h",
     "include/grpc++/server_posix.h", "include/grpc++/grpc++.h",
     "include/grpc++/health_check_service_interface.h",
